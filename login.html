@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+    <title>Login Form</title>
+</head>
+<body>
+    
+
+    <div class="registration-card flex bg-green-500 lg:w-2/5 w-4/5 h-96 shadow-xl 
+         rounded-xl m-auto mt-20">
+      <div class="mt-10 mx-auto w-full px-10">
+         <h2 class="text-white font-bold lg:text-3xl text-2xl text-center my-5">Login To 
+           Your Account</h2>
+          <form class="flex flex-col ">
+            <input id="email" type="email" placeholder="Email" class="border border-green-500  my-2 
+               h-10 p-2 rounded focus:outline-none focus:border-green-900">
+             <input id="password" type="text" placeholder="Password" class="border border-green-500  
+              my-2 h-10 p-2 rounded focus:outline-none focus:border-green-900">
+          </form>
+            <button id="login" class="bg-green-600 w-40 h-12 text-center mx-auto block rounded-lg 
+              mt-5 text-white font-bold hover:text-green-800">Sign In</button>
+     </div>
+    </div>
+
+
+<script src="./js/login.js"></script>
+<script src="./js/LoginRadiusV2SDK.11.1.1.js"></script>
+<script src="https://auth.lrcontent.com/v2/js/LoginRadiusV2.js"></script>
+<script src="./js/options.js"></script>
+</body>
+</html>
